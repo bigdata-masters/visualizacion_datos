@@ -28,13 +28,13 @@ The main goal was to create a **clear, readable, and minimalist visualization** 
 ## Analysis and Design Process
 
 1. Filtering of Relevant Causes
-- Included only causes of death contributing **≥ 0.5% of total global deaths**.  
-- All other causes were grouped under an **“Others”** category using a conditional measure (`IF` + `GROUP BY`).
+    - Included only causes of death contributing **≥ 0.5% of total global deaths**.  
+    - All other causes were grouped under an **“Others”** category using a conditional measure (`IF` + `GROUP BY`).
 
 2. Main Visualization, **Scatter plot** representing:  
-  - **X-axis:** Annual change in deaths (`Deaths annual % change`).  
-  - **Y-axis:** Percentage of total deaths (`Percent of total deaths`).  
-  - **Labels:** Cause of death.
+    - **X-axis:** Annual change in deaths (`Deaths annual % change`).  
+    - **Y-axis:** Percentage of total deaths (`Percent of total deaths`).  
+    - **Labels:** Cause of death.
 
 3. Visual Comparison
     - Allows for quick identification of which causes account for higher proportions and whether they show an **upward or downward trend**.  
