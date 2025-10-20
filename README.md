@@ -29,8 +29,7 @@ Variables principales:
     - Se incluyeron solo las causas de muerte con una contribución ≥ 0.5 % del total global.
     - Las demás se agruparon en una categoría “Others” mediante medida condicional (IF + GROUP BY).
 
-2. Visualización principal
-    - Gráfico de dispersión (scatter plot) que representa:
+2. Visualización principal, gráfico de dispersión (scatter plot) que representa:
     - Eje X: Variación anual de muertes (Deaths annual % change).
     - Eje Y: Porcentaje del total de muertes (Percent of total deaths).
     - Etiquetas: Causa de muerte.

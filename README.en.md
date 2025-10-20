@@ -7,52 +7,44 @@
   </a>
 </p>
 
-# 📊 Data Visualization - Analysis of the Leading Causes of Death Worldwide
+# Data Visualization - Analysis of the Leading Causes of Death Worldwide
 
-## 📌 Description
+## Description
 This dashboard was designed to visualize the **main causes of death worldwide**, considering only those that represent **0.5% or more of total global deaths**.
 
 Causes with lower incidence were grouped under a category named **“Others”**, allowing for a cleaner and more comparative representation.  
 The main goal was to create a **clear, readable, and minimalist visualization** that enables quick interpretation of the data.
 
----
-
 ## 🧰 Tools Used
 <code><img title="Power BI" alt="power bi" width="40px" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/f1d4dd6cd52338a186f58bc29c437f64cf6b327b/SVG/Power-BI.svg" /></code>
 
----
 
-## 📂 Dataset
+## Dataset
 **Main variables:**
 - **Cause of death or injury** → Cause of death or injury.  
 - **Percent of total deaths** → Percentage of total deaths (range 0–1).  
 - **Deaths annual % change** → Annual percentage change in deaths (range -1 to 1).
 
----
+## Analysis and Design Process
 
-## 🔍 Analysis and Design Process
-
-### 1. Filtering of Relevant Causes
+1. Filtering of Relevant Causes
 - Included only causes of death contributing **≥ 0.5% of total global deaths**.  
 - All other causes were grouped under an **“Others”** category using a conditional measure (`IF` + `GROUP BY`).
 
-### 2. Main Visualization
-- **Scatter plot** representing:  
+2. Main Visualization, **Scatter plot** representing:  
   - **X-axis:** Annual change in deaths (`Deaths annual % change`).  
   - **Y-axis:** Percentage of total deaths (`Percent of total deaths`).  
   - **Labels:** Cause of death.
 
-### 3. Visual Comparison
-- Allows for quick identification of which causes account for higher proportions and whether they show an **upward or downward trend**.  
-- Neutral colors were used to maintain visual cleanliness and highlight **positive or negative variations**.
+3. Visual Comparison
+    - Allows for quick identification of which causes account for higher proportions and whether they show an **upward or downward trend**.  
+    - Neutral colors were used to maintain visual cleanliness and highlight **positive or negative variations**.
 
-### 4. Interactivity and Accuracy
-- Added **tooltips** to display exact percentage and annual variation values.  
-- Axis scales were adjusted to match the actual data range, avoiding visual distortion.
+4. Interactivity and Accuracy
+    - Added **tooltips** to display exact percentage and annual variation values.  
+    - Axis scales were adjusted to match the actual data range, avoiding visual distortion.
 
----
-
-## 📈 Results and Insights
+## Results and Insights
 The **main global causes of death** identified were:
 - **Ischemic heart disease**  
 - **Stroke**  
